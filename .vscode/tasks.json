@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "C/C++: gcc build active file",
+      "command": "gcc",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",                    // 生成调试信息（GDB 需要）
+        "${file}",               // 当前打开的 .c 文件
+        "-o",                    // 输出
+        "${fileDirname}/${fileBasenameNoExtension}.exe"  // 输出到同目录 .exe
+      ],
+      "options": {
+        "cwd": "${fileDirname}"  // 工作目录设为文件所在目录
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "detail": "Using MinGW-w64 GCC"
+    }
+  ]
+}

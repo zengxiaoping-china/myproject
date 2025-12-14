@@ -1,0 +1,15 @@
+# 编译产物
+*.exe
+*.obj
+*.o
+*.out
+*.dll
+*.so
+*.lib
+*.pdb
+
+# VS/VS Code 临时文件（可选）
+.vs/
+.vscode/tasks.json      # 如果 tasks.json 是通用配置可保留，否则忽略
+*.suo
+*.user
