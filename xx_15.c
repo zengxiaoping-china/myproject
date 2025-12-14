@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<math.h>
 
+//测试程序：计算一元二次方程的根
+
 int main(){
     int a, b, c;
     float root1, root2, discriminant;
