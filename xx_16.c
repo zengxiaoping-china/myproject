@@ -1,3 +1,7 @@
+/*解题思路:设每吨每千米货物的基本运费为p(price 的缩写),货物重为w(weight的
+缩写),距离为s,折扣为d(discount的缩写),则总运费f(freight的缩写)的计算公式为
+f=p*w*s*(1-d) */
+
 #include<stdio.h>
 int main(){
     int c,s;
