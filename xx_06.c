@@ -1,3 +1,5 @@
+//练习题06-打印九九乘法表
+
 #include<stdio.h>
 
 int main(){

@@ -1,3 +1,5 @@
+//练习实现贷款还款月份计算程序
+
 #include <stdio.h>
 #include <math.h>
 

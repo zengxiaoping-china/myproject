@@ -1,3 +1,5 @@
+//练习打印 ASCII 码表，包括 0-127 和 128-255 范围内的字符
+
 #include <stdio.h>
 #include <ctype.h>
 

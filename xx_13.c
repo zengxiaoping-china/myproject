@@ -1,3 +1,5 @@
+//练习实现银行定期存款利息计算程序
+
 #include <stdio.h>
 #include <math.h>
 

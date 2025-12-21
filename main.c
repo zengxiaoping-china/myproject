@@ -1,4 +1,6 @@
-﻿#include <stdio.h>
+﻿//输入一个整数，计算1到该整数的累加和
+
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
