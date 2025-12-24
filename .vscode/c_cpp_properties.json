@@ -1,8 +1,7 @@
-//配置C/C++扩展的编译器路径和头文件路径
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "MinGW-w64 x64 Debug",
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:/mingw64/include",
