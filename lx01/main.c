@@ -14,7 +14,7 @@ int main() {
     char buffer[256];  // 用于存储用户输入的一行
 
     while (1) {  // 循环直到用户输入合法整数
-        printf("请输入一个整数：\n");
+        printf("请输入一个整数：");
 
         // 安全读取一行输入
         if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
